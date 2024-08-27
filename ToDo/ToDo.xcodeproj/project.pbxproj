@@ -13,6 +13,8 @@
 		33C56F942C7E79B200D676B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C56F932C7E79B200D676B1 /* Assets.xcassets */; };
 		33C56F972C7E79B200D676B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C56F952C7E79B200D676B1 /* LaunchScreen.storyboard */; };
 		33C56FA42C7E809900D676B1 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33C56FA22C7E809900D676B1 /* TaskModel.xcdatamodeld */; };
+		33C56FA62C7E82E800D676B1 /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C56FA52C7E82E800D676B1 /* NiblessViewController.swift */; };
+		33C56FA82C7E831800D676B1 /* NiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C56FA72C7E831800D676B1 /* NiblessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		33C56F962C7E79B200D676B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33C56F982C7E79B200D676B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33C56FA32C7E809900D676B1 /* TaskModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskModel.xcdatamodel; sourceTree = "<group>"; };
+		33C56FA52C7E82E800D676B1 /* NiblessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessViewController.swift; sourceTree = "<group>"; };
+		33C56FA72C7E831800D676B1 /* NiblessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 				33C56F8A2C7E79B100D676B1 /* AppDelegate.swift */,
 				33C56F8C2C7E79B100D676B1 /* SceneDelegate.swift */,
 				33C56F8E2C7E79B100D676B1 /* ViewController.swift */,
+				33C56FA92C7E836100D676B1 /* Reusable */,
 				33C56F9E2C7E802F00D676B1 /* Model */,
 				33C56F932C7E79B200D676B1 /* Assets.xcassets */,
 				33C56F952C7E79B200D676B1 /* LaunchScreen.storyboard */,
@@ -73,6 +78,15 @@
 				33C56FA22C7E809900D676B1 /* TaskModel.xcdatamodeld */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		33C56FA92C7E836100D676B1 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				33C56FA52C7E82E800D676B1 /* NiblessViewController.swift */,
+				33C56FA72C7E831800D676B1 /* NiblessView.swift */,
+			);
+			path = Reusable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,8 @@
 			files = (
 				33C56F8F2C7E79B100D676B1 /* ViewController.swift in Sources */,
 				33C56F8B2C7E79B100D676B1 /* AppDelegate.swift in Sources */,
+				33C56FA62C7E82E800D676B1 /* NiblessViewController.swift in Sources */,
+				33C56FA82C7E831800D676B1 /* NiblessView.swift in Sources */,
 				33C56FA42C7E809900D676B1 /* TaskModel.xcdatamodeld in Sources */,
 				33C56F8D2C7E79B100D676B1 /* SceneDelegate.swift in Sources */,
 			);
