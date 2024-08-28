@@ -8,7 +8,7 @@
 import UIKit
 
 class AddOrEditTaskRootView: NiblessView {
-    let viewModel: AddNewTaskViewModel
+    let viewModel: AddOrEditTaskViewModel
     
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
