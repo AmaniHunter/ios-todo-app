@@ -21,6 +21,7 @@ extension Task {
     @NSManaged public var dateCompleted: Date?
     @NSManaged public var itemDescription: String?
     @NSManaged public var isCompleted: Bool
+    @NSManaged public var id: UUID?
 
 }
 
